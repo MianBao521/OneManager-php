@@ -1,0 +1,11 @@
+---
+application:
+  name: "onemanager"
+  project: "v1"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-onemanager"
+  routes:
+  - application_name: "onemanager"
+    paths:
+    - "/*"
